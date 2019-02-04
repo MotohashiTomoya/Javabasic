@@ -47,7 +47,7 @@ public class PTra04_05 {
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 				if(cpuHand==0&&myHand==2) {
-				break;
+				winFlg = true;
 				}else if(cpuHand==0&&myHand!=2) {
 				continue;
 				}
