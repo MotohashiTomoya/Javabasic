@@ -7,9 +7,10 @@ public class DBCourse implements Course{
 		return Course.PREFIX +"DB基礎";
 	}
 
-	String[] CourseUnit= {"DB基礎","SQL基礎","正規化","SQL応用"};
+
 
 	public String[] getCourseUnit() {
+		String[] CourseUnit= {"DB基礎","SQL基礎","正規化","SQL応用"};
 		return CourseUnit;
 
 	}
