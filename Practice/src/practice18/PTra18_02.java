@@ -11,8 +11,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import entity.Player;
-
 public class PTra18_02 {
 
 	/*

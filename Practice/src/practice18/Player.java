@@ -1,4 +1,4 @@
-package entity;
+package practice18;
 
 public class Player {
 	/*
