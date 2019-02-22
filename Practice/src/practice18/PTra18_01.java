@@ -18,8 +18,9 @@ public class PTra18_01 {
         ArrayList<String> array = new ArrayList<>();
         try(Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
             while (scanner.hasNext()) {
-                String line = scanner.nextLine();
+				String line = scanner.nextLine();
                 // ★ 1行ごとにArrayListに格納してください
+				array.add(line);
 
             }
         } catch (FileNotFoundException e) {
@@ -28,6 +29,8 @@ public class PTra18_01 {
 
 		// ★ ArrayListに格納された値を全て表示してください
 		// ※ できれば拡張for文を使いましょう
-
+        for(String str:array) {
+        	System.out.println(str);
+        }
 	}
 }
