@@ -37,14 +37,14 @@ public class PTra10_04 {
 
 			// ★ 配列にした値を、users[カウント]の各フィールドに代入してください
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-			User users1=new User();
-			users1.userId= Integer.parseInt(array[0]);
-			users1.userNm=array[1];
-			users1.mail=array[2];
-			users1.password=array[3];
+			users[i]=new User();
+			users[i].userId= Integer.parseInt(array[0]);
+			users[i].userNm=array[1];
+			users[i].mail=array[2];
+			users[i].password=array[3];
 
 
-			users[i]=users1;
+
 
 		//----------- ループ end
 		}
